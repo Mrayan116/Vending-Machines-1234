@@ -10,7 +10,7 @@ def write_csv(filename, fieldnames, rows):
 
 #begin
 def generate_all_csvs():
-    # Only generate if files don't already exist
+    # Only generate if files don't already existhgg
     if not os.path.exists("turnout_demographics.csv"):
         write_csv(
             "turnout_demographics.csv",
@@ -19,7 +19,7 @@ def generate_all_csvs():
                 "voter_turnout_2019",
                 "voter_turnout_2021",
                 "age_between_18_34_population",
-                "age_between_35_54_population",
+                "age_between_35_54_population"
                 "age_for_55_plus_population",
                 "total_population"
             ],
