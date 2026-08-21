@@ -8,7 +8,7 @@ def write_csv(filename, fieldnames, rows):
         writer.writerows(rows)
     print("Created {}".format(filename))
 
-#begin
+#beginn
 def generate_all_csvs():
     # Only generate if files don't already existhgg
     if not os.path.exists("turnout_demographics.csv"):
