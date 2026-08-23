@@ -10,7 +10,7 @@ def write_csv(filename, fieldnames, rows):
 
 #beginn
 def generate_all_csvs():
-    # Only generate if files don't already existhgg
+    # Only generate if files don't already. existhgg
     if not os.path.exists("turnout_demographics.csv"):
         write_csv(
             "turnout_demographics.csv",
