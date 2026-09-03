@@ -5,7 +5,7 @@ import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-// most of code such as slider,button,table is from conversion app
+// most of code such as slider,button,table is from conversion app.
 public class ConversionApp {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Conversion App");
